@@ -1,0 +1,49 @@
+SQL practice
+
+--COMMANDS
+CREATE TABLE
+INSERT INTO
+SELECT
+	DISTINCT
+	WHERE
+UPDATE
+ALTER TABLE
+DELETE FROM
+
+
+
+--PRACTICE--
+
+--MANIPULATION
+
+*# Make a table called people, with 3 columns:
+id (int)
+name (str)
+age (int)
+
+*# Add a row to the table with someone's id, name, and age. Make their age wrong.
+
+*# Grab everything currently in people
+
+*# Add 3 more people
+
+*# Grab all the names
+
+*# Update whatever row contains the first ID to a new age
+
+*# Add a new text column from the table called height
+	(This will default to all NULL values at first)
+
+*# Update whatever row contains the 4th ID to be given a height
+
+*# Delete all rows that have NULL values in the height column
+
+*# Make a new table called awards. Columns are id (int, primary key), recipient (string, cant be null), award_name (string, has a default award of "Grammy")
+
+--QUERIES
+
+# Select everything in the movies table
+
+# Grab the name column, but call it 'titles'
+
+# 
