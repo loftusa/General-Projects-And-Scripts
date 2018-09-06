@@ -1,0 +1,32 @@
+sklearn
+
+Supervised learning:
+
+	Classification: Can do things like make a confusion matrix on predictions that shows where wrong predictions lie. Did this with the handwriting digits classification.
+
+		Gaussian naive bayes: sklearn.naive_bayes.GaussianNB. e.g. iris classification, handwriting classification.
+
+		Random forest: sklearn.ensembles.RandomForestClassifier. Used this for fMRI data.
+
+	Regression
+
+		Linear regression: sklearn.linear_model.LinearRegression. Made toy data to do a linear regression on.
+	
+
+Unsupervised learning:
+
+	Clustering
+
+		Gaussian mixture model: sklearn.mixture.GMM. Clustered iris data whose dimensionality was reduced, then used lmplot to plot it.
+
+	Dimensionality reduction:
+
+		PCA: sklearn.decomposition.PCA.
+
+		isomap: sklearn.manifold.Isomap
+
+Validation curve: A curve meant to figure out how the bias/variance tradeoff should affect your model. Plots model complexity to model score (low complexity corresponds to high bias, high complexity corresponds to high variance). The best validation curve has the highest model score.
+
+Pipeline: Chain multiple operations together optimally in sklearn, e.g. using sklearn.pipeline.make_pipeline.
+
+Learning curve: Plot of training/validation score with respect to the size of the training set. Low training set size means high variance. Validation score is always lower than training score; and approaches training score, but never passes it.
