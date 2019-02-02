@@ -1,0 +1,5 @@
+Gene ID,Fold change (Ketamine vs. Vehicle),P-value (Ketamine vs. Vehicle),Fold change (L655 vs. Vehicle),P-value (L655 vs. Vehicle)
+Apold1,3.06,0.0,1.68,0.0
+Kcna2,3.72,0.0,4.97,0.0
+Rn18s,-5.87,0.01,-1.33,0.15
+Vof16,4.16,0.0,4.09,0.0
